@@ -22,6 +22,7 @@ def reduce(source_array, starting_point=0)
     i += 1
   end
   yield(total, starting_point)
+  yield(total, true)
 end
 
 reduce([], 0) { |memo, n| memo + n}
