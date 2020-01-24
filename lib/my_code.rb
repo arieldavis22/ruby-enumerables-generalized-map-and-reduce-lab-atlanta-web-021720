@@ -25,8 +25,9 @@ def reduce(source_array, sv=0)
 
   while i < source_array.length do
     yield(num1, source_array[i])
+    i += 1
   end
-
+ sum
 end
 
 # reduce([], 0) { |memo, n| memo + n}
