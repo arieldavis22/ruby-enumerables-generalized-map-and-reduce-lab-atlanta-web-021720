@@ -19,7 +19,7 @@ def reduce(source_array, sv=0)
     sum = sv
     i = 0
   else
-    sum = source_array[i]
+    sum = source_array[0]
     i = 1
   end
 
