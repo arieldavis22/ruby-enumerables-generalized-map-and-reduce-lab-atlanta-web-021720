@@ -27,4 +27,4 @@ end
 
 reduce([], 0) { |memo, n| memo + n}
 
-reduce([], 0) {|memo, n| memo && n}
+reduce([], true) {|memo, n| memo && n}
