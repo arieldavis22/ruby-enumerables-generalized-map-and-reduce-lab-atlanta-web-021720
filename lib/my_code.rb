@@ -13,7 +13,7 @@ end
 
 map([]) { |n| n * -1}
 
-def reduce(source_array, sv=0)
+def reduce(source_array, sv=nil)
 
   if sv
     sum = sv
