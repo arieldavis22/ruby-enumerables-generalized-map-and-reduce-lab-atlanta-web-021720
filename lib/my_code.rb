@@ -17,7 +17,7 @@ def reduce(source_array, sv=0)
 
   if sv
     num1 = sv
-    i = 0 
+    i = 0
   else
     num1 = source_array[i]
     i = 1
