@@ -16,15 +16,15 @@ map([]) { |n| n * -1}
 def reduce(source_array, sv=0)
 
   if sv
-    num1 = sv
+    sum = sv
     i = 0
   else
-    num1 = source_array[i]
+    sum = source_array[i]
     i = 1
   end
 
   while i < source_array.length do
-    yield(num1, source_array[i])
+    yield(sum, source_array[i])
     i += 1
   end
  sum
